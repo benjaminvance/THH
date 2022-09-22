@@ -6,7 +6,7 @@ var catalog = [
         title: "Chaga",
         image: "Chaga.webp",
         discount: 5,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00002",
@@ -15,7 +15,7 @@ var catalog = [
         title: "Golden Teacher",
         image: "goldenteacher.jpeg",
         discount: 6,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00003",
@@ -24,7 +24,7 @@ var catalog = [
         title: "Reishi",
         image: "reishi.jpeg",
         discount: 4,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00004",
@@ -33,7 +33,7 @@ var catalog = [
         title: "Morel",
         image: "morel.jpeg",
         discount: 3,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00005",
@@ -42,7 +42,7 @@ var catalog = [
         title: "Cordyceps",
         image: "cordyceps.jpeg",
         discount: 2,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00006",
@@ -51,7 +51,7 @@ var catalog = [
         title: "Lion's Mane",
         image: "lionsmane.webp",
         discount: 2,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00007",
@@ -60,7 +60,7 @@ var catalog = [
         title: "Agarikon",
         image: "agarikon.png",
         discount: 2,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00007",
@@ -69,7 +69,7 @@ var catalog = [
         title: "Maitake",
         image: "maitake.jpeg",
         discount: 2,
-        category: "Fruit",
+        category: "Mushroom",
     },
     {
         _id: "00009",
@@ -78,7 +78,7 @@ var catalog = [
         title: "Turkey Tail",
         image: "Turkeytail.jpeg",
         discount: 2,
-        category: "Fruit",
+        category: "Mushroom",
     },
 ]
 
