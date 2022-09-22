@@ -1,7 +1,7 @@
 var catalog = [
     {
         _id: "00001",
-        price: 50,
+        price: 25,
         stock: 12,
         title: "Chaga",
         image: "Chaga.webp",
@@ -10,7 +10,7 @@ var catalog = [
     },
     {
         _id: "00002",
-        price: 12,
+        price: 60,
         stock: 123,
         title: "Golden Teacher",
         image: "goldenteacher.jpeg",
@@ -19,7 +19,7 @@ var catalog = [
     },
     {
         _id: "00003",
-        price: 14,
+        price: 25,
         stock: 69,
         title: "Reishi",
         image: "reishi.jpeg",
@@ -28,7 +28,7 @@ var catalog = [
     },
     {
         _id: "00004",
-        price: 99,
+        price: 30,
         stock: 420,
         title: "Morel",
         image: "morel.jpeg",
@@ -37,7 +37,7 @@ var catalog = [
     },
     {
         _id: "00005",
-        price: 80,
+        price: 30,
         stock: 12,
         title: "Cordyceps",
         image: "cordyceps.jpeg",
@@ -46,7 +46,7 @@ var catalog = [
     },
     {
         _id: "00006",
-        price: 80,
+        price: 25,
         stock: 12,
         title: "Lion's Mane",
         image: "lionsmane.webp",
@@ -55,7 +55,7 @@ var catalog = [
     },
     {
         _id: "00007",
-        price: 80,
+        price: 30,
         stock: 12,
         title: "Agarikon",
         image: "agarikon.png",
@@ -64,7 +64,7 @@ var catalog = [
     },
     {
         _id: "00007",
-        price: 80,
+        price: 30,
         stock: 12,
         title: "Maitake",
         image: "maitake.jpeg",
@@ -73,7 +73,7 @@ var catalog = [
     },
     {
         _id: "00009",
-        price: 80,
+        price: 30,
         stock: 12,
         title: "Turkey Tail",
         image: "Turkeytail.jpeg",
