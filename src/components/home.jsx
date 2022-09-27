@@ -12,7 +12,7 @@ const Home = () => {
             <div>
 
             </div>
-            <h3>Shop Below</h3>
+            <h3>Explore Below</h3>
             <div class="card-group">
                 <div class="card">
                     <img src="/img/chaga.webp" alt="" />
