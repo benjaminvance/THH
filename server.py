@@ -14,7 +14,7 @@ CORS(app)
 
 @app.route("/")
 def home():
-    return "This is the home page"
+    return "home page test"
 
 
 @app.route("/about")
@@ -148,29 +148,6 @@ def get_cheapest_product():
     solution["_id"] = str(solution["_id"])
     return json.dumps(solution)
 
-
-@app.get("/api/exercise1")
-def get_exe1():
-    nums = [123, 123, 654, 124, 8865, 532, 4768, 8476, 45762,
-            345, -1, 234, 0, -12, -456, -123, -865, 532, 4768]
-    solution = {}
-
-    # A: find the lowest number
-    solution["a"] = 1
-
-    # B: find how many numbers are lowe than 500
-    solution["b"] = 1
-
-    # C: sum all the negatives
-    solution["c"] = 1
-
-    # D: find the sum of numbers except negatives
-    solution["d"] = 1
-
-    return json.dumps(solution)
-
-# competancy report due before saturday class
-
 ###########################################################
 #################### COUPON CODES #########################
 ###########################################################
@@ -250,6 +227,3 @@ app.run(debug=True)
 # cd copy and paste folder
 # venv\Scripts\activate
 # py server.py
-
-# 9Mdc5GnNku2STGLS
-# mongodb+srv://benvance:<password>@cluster0.yhiym.mongodb.net/?retryWrites=true&w=majority
