@@ -27,7 +27,7 @@ function Footer() {
                     </Column>
                     <Column>
                         <Heading>Services</Heading>
-                        <FooterLink href="./products">Products</FooterLink>
+                        <FooterLink href="./catalog">Products</FooterLink>
                         <FooterLink href="./todo">Shopping List</FooterLink>
                     </Column>
                     <Column>
