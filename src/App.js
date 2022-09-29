@@ -34,6 +34,7 @@ function App() {
             <Route path="/todo" element={<Todo />} />
             <Route path="/sign" element={<Sign />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
 
           <Footer />

@@ -27,7 +27,7 @@ def address():
     return f'{me["address"]["street"]} #{me["address"]["number"]}'
 
 
-################ API ENDPOINTS ###################
+# API ENDPOINTS
 
 @app.route("/api/catalog", methods=['GET'])
 def get_catalog():
@@ -109,7 +109,7 @@ def get_total():
 
     return json.dumps(total)
 
-###########   Get product by category   ###########
+# Get product by category
 
 
 @app.route("/api/catalog/<category>")
@@ -148,9 +148,7 @@ def get_cheapest_product():
     solution["_id"] = str(solution["_id"])
     return json.dumps(solution)
 
-###########################################################
-#################### COUPON CODES #########################
-###########################################################
+# COUPON CODES
 
 
 @app.route("/api/coupons", methods=["POST"])
@@ -224,6 +222,5 @@ def get_coupon_by_code(code):
 app.run(debug=True)
 
 
-# cd copy and paste folder
 # venv\Scripts\activate
 # py server.py
