@@ -35,7 +35,7 @@ const Product = (props) => {
            
             <div className="controls">
             <QuantityPicker onChange={onQuantityChange}></QuantityPicker>
-            <button className="btn btn-primary btn-sm" onClick={addProduct}>Add</button>
+            <button className="btn btn-success btn-sm" onClick={addProduct}>Add</button>
             </div>
         </div>
     );

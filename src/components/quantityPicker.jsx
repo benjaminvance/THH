@@ -25,9 +25,9 @@ const QuantityPicker = (props) => {
 
     return (
         <div className="quantityPicker">
-        <button className="btn btn-primary btn-sm" onClick={handleDecrease}>-</button>
+        <button className="btn btn-success btn-sm" onClick={handleDecrease}>-</button>
         <label>{quantity}</label>
-        <button className="btn btn-primary btn-sm" onClick={handleIncrease}>+</button>
+        <button className="btn btn-success btn-sm" onClick={handleIncrease}>+</button>
         </div>
     );
 }
