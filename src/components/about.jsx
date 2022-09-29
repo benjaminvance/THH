@@ -29,7 +29,7 @@ const About = () => {
 
     return (
         <div className="about-page">
-            <h1 class="about-title">What is TheHolisticHub?</h1>
+            <h1 class="about-title">What is The Holistic Hub?</h1>
             {getContent()}
             {/* { visible ? <p>Email: thebenvance@gmail.com</p> }
         { !visible ? <button onClick={showEmail} className="btn btn-primary">Show Info</button> } */}

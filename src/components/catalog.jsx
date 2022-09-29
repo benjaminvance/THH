@@ -20,7 +20,7 @@ const Catalog = () => {
 
     return (
         <div className="catalog">
-            <h2>TheHolisticHub Products</h2>
+            <h2>The Holistic Hub Products</h2>
             <h3>We have {products.length} products!</h3>
 
             {
