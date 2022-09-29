@@ -22,7 +22,7 @@ const Todo = () => {
 
       <div className="capture">
         <input name="todo-text" onChange={handleTextChange} type="text" />
-        <button className="btn btn-sm btn-primary" onClick={addTodo}>
+        <button className="btn btn-sm btn-success" onClick={addTodo}>
           Add
         </button>
       </div>

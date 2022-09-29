@@ -49,7 +49,7 @@ const Register = () => {
                 </div>
 
 
-                <button type="button" class="btn btn-primary btn-block mb-4">Register</button>
+                <button type="button" class="btn btn-success btn-block mb-4">Register</button>
 
 
                 <div class="text-center">

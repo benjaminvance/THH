@@ -22,7 +22,7 @@ const About = () => {
         else {
             return <div>
                 <p>Click the button below to learn about us!</p>
-                <button onClick={showEmail} className="btn btn-primary">Show Info</button>
+                <button onClick={showEmail} className="btn btn-success">Show Info</button>
             </div>
         }
     }

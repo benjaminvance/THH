@@ -72,7 +72,7 @@ const Admin = () => {
                 </div>
 
                 <div className="field">
-                    <button onClick={saveProduct} className="btn btn-primary">Register Item</button>
+                    <button onClick={saveProduct} className="btn btn-success">Register Item</button>
                 </div>
 
             <hr />
@@ -97,7 +97,7 @@ const Admin = () => {
 
             <div className="field">
                 <label>Code</label>
-                <button onClick={saveCoupon} className="btn btn-primary">Register Coupon</button>
+                <button onClick={saveCoupon} className="btn btn-success">Register Coupon</button>
             </div>
             <hr />
             <ul>
