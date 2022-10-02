@@ -11,6 +11,10 @@ import Todo from "./components/todo";
 import Sign from "./components/sign";
 import Register from "./components/register"
 import Contact from "./components/contact"
+import CreateUserComponent from './components/CreateUserComponent';
+import ViewUserComponent from './components/ViewUserComponent';
+import UpdateUserComponent from "./components/UpdateUserComponent";
+import ListUserComponent from "./components/ListUserComponent";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
@@ -35,6 +39,10 @@ function App() {
             <Route path="/sign" element={<Sign />} />
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path = "/" exact component = {ListUserComponent}></Route>
+            <Route path = "/users" component = {ListUserComponent}></Route>
+            <Route path = "/add-user/:id" component = {CreateUserComponent}></Route>
+            <Route path = "/view-user/:id" component = {ViewUserComponent}></Route>
           </Routes>
 
           <Footer />

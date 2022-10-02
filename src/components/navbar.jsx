@@ -42,6 +42,9 @@ function Navbar() {
             <li className="nav-item active">
               <Link className="nav-link" to="/sign">Sign In <span className="sr-only"></span></Link>
             </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/add-user/:id">Sign In <span className="sr-only"></span></Link>
+            </li>
           </ul>
           <form className="btn btn-outline-light">
             <Link className="nav-link" to="/cart">
