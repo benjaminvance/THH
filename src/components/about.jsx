@@ -11,7 +11,7 @@ const About = () => {
 
     const getContent = () => {
         if (visible) {
-            return <div>
+            return <div class="about-content">
                 <p>The Holistic Hub is a Professional eCommerce Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of eCommerce, with a focus on dependability and Holistic. We're working to turn our passion for eCommerce into a booming online website. We hope you enjoy our eCommerce as much as we enjoy offering them to you.
                     I will keep posting more important posts on my Website for all of you. Please give your support and love.
                 </p>
@@ -20,7 +20,7 @@ const About = () => {
             </div>
         }
         else {
-            return <div>
+            return <div class="about-q">
                 <p>Click the button below to learn about us!</p>
                 <button onClick={showEmail} className="btn btn-success">Show Info</button>
             </div>
