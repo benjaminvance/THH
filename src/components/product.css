@@ -22,6 +22,8 @@
 
 .product .prices{
     display: flex;
+    color: green;
+    font-weight: 700;
 }
 
 .product .prices label {
